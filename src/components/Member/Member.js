@@ -6,7 +6,7 @@ import images from '../../assets/images'
 import { motion } from "framer-motion";
 
 const checkPosition = (index, score) => {
-    if (score !== 0) {
+    if (score !== undefined) {
         switch (index) {
             case 0:
                 return "member-wrapper-first"
@@ -34,13 +34,13 @@ const Member = ({ image, name, score, isActive, placement }) => {
             transition={{ type: "spring", stiffness: 400, damping: 10 }}
         >
             <div className={checkPosition(placement, score)}>
-                {(placement === 0 && score !== 0) &&
+                {(placement === 0 && score !== undefined) &&
                     <img src={images.gold} className="placement-img" />
                 }
-                {(placement === 1 && score !== 0) &&
+                {(placement === 1 && score !== undefined) &&
                     <img src={images.silver} className="placement-img" />
                 }
-                {(placement === 2 && score !== 0) &&
+                {(placement === 2 && score !== undefined) &&
                     <img src={images.bronze} className="placement-img" />
                 }
                 <motion.div
@@ -67,7 +67,7 @@ const Member = ({ image, name, score, isActive, placement }) => {
 
                 <h1 className='member-name'>{name}</h1>
                 <div className='member-percent'>
-                    {score}%
+                    {score ? `${score}%` : "--"}
                 </div>
 
             </div>

@@ -4,11 +4,11 @@
     justify-content: space-between;
     align-items: center;
     padding: 0px 113px;
-    gap: 50px;
+    gap: 10px;
     margin-top: 4rem;
     margin-bottom: 2rem;
     /* position: absolute; */
-    width: 1440px;
+    max-width: 1440px;
     height: 86px;
     /* left: 0px;
     top: 0px; */
@@ -59,13 +59,19 @@
     }
 } */
 
-.leaderboard-img {
-    width: 400px;
+.nav-grid img {
+    height: auto;
     min-width: 50px;
+}
+
+.leaderboard-img {
+    max-width: 100%;
+    max-height: 100%;
+    min-width: 70%;
 }
 
 @media (max-width: 1200px) {
     .leaderboard-img {
-        width: 300px;
+        width: 400px;
     }
 }

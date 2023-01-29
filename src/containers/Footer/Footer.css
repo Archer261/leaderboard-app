@@ -1,6 +1,13 @@
 .footer-wrapper {
     display: flex;
-    flex-direction: row;
-    margin: 2rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 0;
     z-index: 1;
+    color: #003470;
+}
+
+.footer-wrapper h2 {
+    margin: 0;
 }

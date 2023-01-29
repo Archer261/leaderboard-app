@@ -5,17 +5,12 @@ import './Footer.css'
 
 const Footer = () => {
 
-
-    const THREE_DAYS_IN_MS = 3 * 24 * 60 * 60 * 1000;
-    const NOW_IN_MS = new Date().getTime();
-
-    const dateTimeAfterThreeDays = NOW_IN_MS + THREE_DAYS_IN_MS;
-
-    console.log(dateTimeAfterThreeDays)
+    let deadline = "march, 17, 2023";
 
     return (
         <div className='footer-wrapper'>
-            <Timer targetDate={dateTimeAfterThreeDays} />
+            <h2>Week 1</h2>
+            <Timer deadline={deadline} />
         </div>
     )
 }

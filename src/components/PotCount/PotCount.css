@@ -1,18 +1,25 @@
 .potCount-container {
     display: flex;
+    position: relative;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background: url('../../assets/potImg.png');
-    background-size: contain;
-    background-repeat: no-repeat;
-    min-width: 400px;
+    width: 200px;
     min-height: auto;
-    height: 400px;
-    width: 512px;
     z-index: 1;
+    color: #e3f15d;
+
 }
 
 .potCount-container * {
     margin: 0;
+}
+
+.potCount-container h1 {
+    position: absolute;
+}
+
+.potCount-container img {
+    max-width: 100%;
+    min-width: 100%;
 }
