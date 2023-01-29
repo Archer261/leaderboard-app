@@ -2,7 +2,7 @@
   "name": "frontend_react",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://Archer261.github.io/leaderboard-app",
+  "homepage": "https://rocketcombs.com",
   "dependencies": {
     "@apollo/react-hooks": "^4.0.0",
     "@emotion/react": "^11.10.5",
