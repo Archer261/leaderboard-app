@@ -1,0 +1,71 @@
+.nav-grid {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 113px;
+    gap: 50px;
+    margin-top: 4rem;
+    margin-bottom: 2rem;
+    /* position: absolute; */
+    width: 1440px;
+    height: 86px;
+    /* left: 0px;
+    top: 0px; */
+}
+
+/* Define the grid items (nav links) */
+/* .nav-grid div {
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+} */
+
+/* Change background color of hovered nav link */
+/* .nav-grid div:hover {
+    background-color: #aaa;
+} */
+/* 
+.header-wrapper-img,
+.leaderboard-header,
+.leaderboard-img {
+    justify-self: center;
+    height: auto;
+    padding: 2rem;
+    margin: 2rem;
+}
+
+.header-wrapper-img {
+    width: 350px;
+}
+
+.leaderboard-img {
+    width: 400px;
+    min-width: 50px;
+}
+
+
+@media (max-width: 1200px) {
+    .leaderboard-img {
+        width: 300px;
+    }
+} */
+
+/* Media query to stack grid items vertically on small screens */
+/* @media (max-width: 600px) {
+    .nav-grid {
+        grid-template-columns: none;
+        grid-template-rows: repeat(auto-fit, minmax(50px, 1fr));
+    }
+} */
+
+.leaderboard-img {
+    width: 400px;
+    min-width: 50px;
+}
+
+@media (max-width: 1200px) {
+    .leaderboard-img {
+        width: 300px;
+    }
+}

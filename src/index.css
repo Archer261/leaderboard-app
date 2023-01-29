@@ -1,0 +1,59 @@
+/* Global styles */
+
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+
+body {
+    font-family: 'Sriracha', cursive;
+    margin: 0;
+    padding: 0;
+    color: black;
+    overflow: hidden;
+    background: linear-gradient(to bottom, transparent, rgb(255, 255, 255)), url('./assets/bgImg.png');
+    background-size: cover;
+    /* filter: blur(10px); */
+}
+
+/* Responsive styles for mobile devices */
+@media (max-width: 576px) {
+
+    /* Styles for screens less than 576px wide */
+    body {
+        font-size: 12px;
+    }
+}
+
+/* Responsive styles for tablet devices */
+@media (min-width: 576px) and (max-width: 768px) {
+
+    /* Styles for screens between 576px and 768px wide */
+    body {
+        font-size: 14px;
+    }
+}
+
+/* Responsive styles for small desktop devices */
+@media (min-width: 768px) and (max-width: 992px) {
+
+    /* Styles for screens between 768px and 992px wide */
+    body {
+        font-size: 16px;
+    }
+}
+
+/* Responsive styles for large desktop devices */
+@media (min-width: 992px) and (max-width: 1200px) {
+
+    /* Styles for screens between 992px and 1200px wide */
+    body {
+        font-size: 18px;
+    }
+}
+
+/* Responsive styles for extra-large desktop devices */
+@media (min-width: 1200px) {
+
+    /* Styles for screens 1200px wide and up */
+    body {
+        font-size: 20px;
+    }
+}

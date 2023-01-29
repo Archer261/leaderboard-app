@@ -1,0 +1,129 @@
+.member-wrapper,
+.member-wrapper-first,
+.member-wrapper-second,
+.member-wrapper-third {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    gap: 50px;
+    margin: 2px 1rem;
+    max-width: 1100px;
+    width: 1100px;
+    height: 102px;
+    background: #cb2030;
+    border-radius: 15px;
+    color: #003470;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    transition-duration: 0.3s;
+}
+
+.member-wrapper-first {
+    background: #d8b354;
+    box-shadow:
+        inset 60px 0 120px #d8b354,
+        /* left magenta */
+        inset -60px 0 120px #FFF;
+    /* right cyan */
+}
+
+.member-wrapper-second {
+    background: #cdcfcf;
+    box-shadow:
+        inset 60px 0 120px #cdcfcf,
+        /* left magenta */
+        inset -60px 0 120px #FFF;
+    /* right cyan */
+}
+
+.member-wrapper-third {
+    background: #d58d54;
+    box-shadow:
+        inset 60px 0 120px #d58d54,
+        /* left magenta */
+        inset -60px 0 120px #FFF;
+    /* right cyan */
+}
+
+
+
+.member-percent {
+    display: flex;
+    box-sizing: border-box;
+    align-items: center;
+    justify-content: center;
+    width: 120px;
+    height: 77px;
+    background: #FFFFFF;
+    border: 5px solid #FFE353;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 15px;
+    transition-duration: 0.3s;
+}
+
+.member-image,
+.member-image-active {
+    display: flex;
+    box-sizing: border-box;
+    max-width: 82px;
+    max-height: 82px;
+    background: #BE3838;
+    border: 5px solid #FFFFFF;
+    border-radius: 50%;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    transition-duration: 0.3s;
+}
+
+.member-image-active {
+    border: 5px solid #21a828;
+}
+
+
+.member-image-active img,
+.member-image img {
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 50%;
+}
+
+.member-name {
+    width: 217px;
+    height: 45px;
+    text-transform: uppercase;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 48px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+    transition-duration: 0.3s;
+}
+
+.member-wrapper:hover,
+.member-wrapper-first:hover,
+.member-wrapper-second:hover,
+.member-wrapper-third:hover {
+    background: #FFF;
+
+}
+
+.member-wrapper:hover h1,
+.member-wrapper-first:hover h1,
+.member-wrapper-second:hover h1,
+.member-wrapper-third:hover h1 {
+    color: #003470;
+}
+
+.placement-img {
+    width: 50px;
+    height: auto;
+}

@@ -1,0 +1,70 @@
+/* App class styles */
+.App {
+    /* Frame 1 */
+
+
+    /* Auto layout */
+
+    /* position: relative; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+    align-items: center;
+
+}
+
+/* .main-wrapper {
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    background: url();
+
+    z-index: 0;
+} */
+
+/* Responsive styles for mobile devices */
+@media (max-width: 576px) {
+
+    /* Styles for screens less than 576px wide */
+    .App {
+        font-size: 1rem;
+    }
+}
+
+/* Responsive styles for tablet devices */
+@media (min-width: 576px) and (max-width: 768px) {
+
+    /* Styles for screens between 576px and 768px wide */
+    .App {
+        font-size: 1.2rem;
+    }
+}
+
+/* Responsive styles for small desktop devices */
+@media (min-width: 768px) and (max-width: 992px) {
+
+    /* Styles for screens between 768px and 992px wide */
+    .App {
+        font-size: 1.4rem;
+    }
+}
+
+/* Responsive styles for large desktop devices */
+@media (min-width: 992px) and (max-width: 1200px) {
+
+    /* Styles for screens between 992px and 1200px wide */
+    .App {
+        font-size: 1.6rem;
+    }
+}
+
+/* Responsive styles for extra-large desktop devices */
+@media (min-width: 1200px) {
+
+    /* Styles for screens 1200px wide and up */
+    .App {
+        font-size: 1.8rem;
+    }
+}

@@ -1,0 +1,28 @@
+.header-wrapper {
+    display: flex;
+    z-index: 1;
+    width: 90vw;
+    max-width: 90vw;
+    height: 20px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem 0;
+    margin: 2rem 2rem;
+}
+
+.header-wrapper-img {
+    width: 150px;
+    height: auto;
+}
+
+
+.leaderboard-header {
+    font-size: 30px;
+    font-weight: 300;
+}
+
+.leaderboard-header img {
+    width: 65%;
+    height: auto;
+    margin-top: 2rem;
+}
