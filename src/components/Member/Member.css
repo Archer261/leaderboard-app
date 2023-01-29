@@ -4,7 +4,7 @@
 .member-wrapper-third {
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
     padding: 10px;
     gap: 50px;
@@ -94,14 +94,12 @@
 }
 
 .member-name {
-    width: 217px;
-    height: 45px;
+    max-width: 100%;
+    max-height: 100%;
     text-transform: uppercase;
     font-style: normal;
     font-weight: 400;
-    font-size: 30px;
     line-height: 48px;
-    display: flex;
     align-items: center;
     text-align: center;
     color: #FFFFFF;
@@ -124,6 +122,98 @@
 }
 
 .placement-img {
-    width: 50px;
+    margin: 0 auto;
+    width: 80%;
     height: auto;
+}
+
+
+/* Responsive styles for mobile devices */
+@media (max-width: 576px) {
+
+    /* Styles for screens less than 576px wide */
+    .member-wrapper,
+    .member-wrapper-first,
+    .member-wrapper-second,
+    .member-wrapper-third {
+        justify-content: center;
+        margin: 1px 0.2rem;
+        padding: 2px;
+        max-width: 400px;
+        height: auto;
+    }
+
+    .placement-img {
+        width: 100px;
+        height: auto;
+    }
+
+}
+
+/* Responsive styles for tablet devices */
+@media (min-width: 576px) and (max-width: 768px) {
+
+    /* Styles for screens between 576px and 768px wide */
+    .member-wrapper,
+    .member-wrapper-first,
+    .member-wrapper-second,
+    .member-wrapper-third {
+        width: 560px;
+        height: auto;
+    }
+
+    .placement-img {
+        width: 100px;
+        height: auto;
+    }
+}
+
+/* Responsive styles for small desktop devices */
+@media (min-width: 768px) and (max-width: 992px) {
+
+    /* Styles for screens between 768px and 992px wide */
+    .member-wrapper,
+    .member-wrapper-first,
+    .member-wrapper-second,
+    .member-wrapper-third {
+        width: 700px;
+        height: auto;
+    }
+
+    .placement-img {
+        width: 100px;
+        height: auto;
+    }
+}
+
+/* Responsive styles for large desktop devices */
+@media (min-width: 992px) and (max-width: 1200px) {
+
+    /* Styles for screens between 992px and 1200px wide */
+    .member-wrapper,
+    .member-wrapper-first,
+    .member-wrapper-second,
+    .member-wrapper-third {}
+
+    .placement-img {
+        width: 100px;
+        height: auto;
+    }
+}
+
+/* Responsive styles for extra-large desktop devices */
+@media (min-width: 1200px) {
+
+    /* Styles for screens 1200px wide and up */
+    .member-wrapper,
+    .member-wrapper-first,
+    .member-wrapper-second,
+    .member-wrapper-third {
+        justify-content: space-around;
+    }
+
+    .placement-img {
+        width: 100px;
+        height: auto;
+    }
 }
