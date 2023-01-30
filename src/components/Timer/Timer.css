@@ -24,7 +24,11 @@
 }
 
 .show-counter div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     margin: 1rem;
+    justify-content: center;
 }
 
 
@@ -67,11 +71,15 @@
     line-height: 1rem;
 }
 
-
-
-
-
 @media screen and (max-width: 1200px) {
+    .show-counter div {
+        margin: 0.1rem;
+        font-size: 12px;
+        letter-spacing: -1px;
+    }
+}
+
+@media screen and (max-width: 576px) {
     .show-counter div {
         margin: 0.1rem;
     }

@@ -74,11 +74,17 @@
 @media (max-width: 576px) {
 
     .nav-grid {
-        gap: 2px;
+        gap: 1px;
+        justify-content: center;
+        margin-bottom: 1rem;
     }
 
     .leaderboard-img {
         width: 200px;
+    }
+
+    .header-wrapper-img {
+        width: 100px;
     }
 
 }

@@ -90,3 +90,22 @@
 @media screen and (max-width: 1200px) {
     .menuBar {}
 }
+
+@media (max-width: 576px) {
+
+    .menuBar {
+        width: 100px;
+        height: auto;
+        padding: 1rem 0.2rem;
+        top: 10px;
+    }
+
+    .sideMenu {
+        width: 300px;
+    }
+
+    .sideMenu svg {
+        width: 20px;
+        height: auto;
+    }
+}

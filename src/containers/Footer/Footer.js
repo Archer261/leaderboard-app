@@ -5,7 +5,7 @@ import './Footer.css'
 
 const Footer = () => {
 
-    let deadline = "march, 17, 2023";
+    let deadline = "february, 3, 2023";
 
     return (
         <div className='footer-wrapper'>
