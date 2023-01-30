@@ -70,7 +70,21 @@
     min-width: 70%;
 }
 
-@media (max-width: 1200px) {
+
+@media (max-width: 576px) {
+
+    .nav-grid {
+        gap: 2px;
+    }
+
+    .leaderboard-img {
+        width: 200px;
+    }
+
+}
+
+
+@media (min-width: 1200px) {
     .leaderboard-img {
         width: 400px;
     }

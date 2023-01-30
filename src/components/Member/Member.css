@@ -137,14 +137,24 @@
     .member-wrapper-second,
     .member-wrapper-third {
         justify-content: center;
-        margin: 1px 0.2rem;
-        padding: 2px;
-        max-width: 400px;
+        margin: 0.2px 0.2rem;
+        /* padding-left: 0.1px;
+        padding-left; */
+        max-width: 310px;
         height: auto;
     }
 
     .placement-img {
         width: 100px;
+        height: auto;
+    }
+
+    h1 {
+        font-size: 12px;
+    }
+
+    .member-percent {
+        width: 80px;
         height: auto;
     }
 
