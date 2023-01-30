@@ -37,7 +37,7 @@
     }
 }
 
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 576px) {
     .scoreboard-wrapper {
         width: 95vw;
         height: auto;
