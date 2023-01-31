@@ -8,7 +8,7 @@ const PotCount = (potNumber) => {
     return (
         <div className='potCount-container'>
             <img src={images.potImg} alt="prize-pot" />
-            <h1>$<CountUp end={270} /></h1>
+            <h1>$<CountUp end={300} /></h1>
         </div>
     )
 }
